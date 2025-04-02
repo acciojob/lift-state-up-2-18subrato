@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="parent" style={{backgroundColor:'orange'}}>
       <h1>Parent Component</h1>
-      <p>{allValue}</p>
+      <p style={{fontSize:"22px",fontWeight:"600",padding:"20px"}}>{allValue}</p>
         <Child setAllValue={setAllValue}/>
     </div>
   )
